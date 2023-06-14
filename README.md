@@ -32,9 +32,6 @@ Output files description:
 - "sampling_z_generation_x.txt" contains the values of the resource abundance of all patches in the population at generation x
 - "sampling_i_generation_x.txt" contains the identity of the patch each individuals is in, for the entire population at generation x. This output is only generated when population size flutuates, in order to keep track of the size of each patch.
 
-The folder "simulated_results" contains the output files of the simulations used to make Figure 3-4, S4-S5-S6. For each figure, the parameters used to generate the output are specified in the legend. 
-
-
 Running the simulations:
 
 First, you must make sure that the folders where the output files will be written exist (you need to give a correct path at the placeholder 'PATH' in the file "function.cpp").
